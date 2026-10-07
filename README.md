@@ -5,6 +5,11 @@ An end-to-end retrieval-augmented generation (RAG) application that answers cust
 
 The system retrieves relevant policy sections from ChromaDB and provides them to an OpenAI language model, which generates a grounded answer with source attribution.
 
+
+## Live Demo
+
+[Try the deployed NovaMart Support Assistant](https://novamart-rag-assistant.streamlit.app/)
+
 ## Features
 
 - Customer-support knowledge base covering returns, shipping, warranties, orders, payments, accounts and privacy
