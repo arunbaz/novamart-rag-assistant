@@ -1,0 +1,242 @@
+{
+  "number_of_test_cases": 18,
+  "top_1_accuracy": 0.9444444444444444,
+  "top_3_accuracy": 1.0,
+  "mean_reciprocal_rank": 0.9722222222222222,
+  "results": [
+    {
+      "question": "Can I return an unused item after 30 days?",
+      "expected_chunk_id": "returns_refunds.md_1",
+      "retrieved_chunk_ids": [
+        "returns_refunds.md_1",
+        "returns_refunds.md_2",
+        "returns_refunds.md_4"
+      ],
+      "top_1_correct": true,
+      "top_3_correct": true,
+      "correct_rank": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "My product arrived broken. What should I provide?",
+      "expected_chunk_id": "returns_refunds.md_2",
+      "retrieved_chunk_ids": [
+        "returns_refunds.md_2",
+        "product_warranty.md_4",
+        "product_warranty.md_2"
+      ],
+      "top_1_correct": true,
+      "top_3_correct": true,
+      "correct_rank": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "How long does an approved refund take?",
+      "expected_chunk_id": "returns_refunds.md_3",
+      "retrieved_chunk_ids": [
+        "returns_refunds.md_3",
+        "returns_refunds.md_2",
+        "returns_refunds.md_1"
+      ],
+      "top_1_correct": true,
+      "top_3_correct": true,
+      "correct_rank": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "Can I return a personalised product?",
+      "expected_chunk_id": "returns_refunds.md_4",
+      "retrieved_chunk_ids": [
+        "returns_refunds.md_4",
+        "returns_refunds.md_1",
+        "returns_refunds.md_2"
+      ],
+      "top_1_correct": true,
+      "top_3_correct": true,
+      "correct_rank": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "How long does standard shipping take to a remote area?",
+      "expected_chunk_id": "shipping_delivery.md_2",
+      "retrieved_chunk_ids": [
+        "shipping_delivery.md_2",
+        "shipping_delivery.md_3",
+        "shipping_delivery.md_5"
+      ],
+      "top_1_correct": true,
+      "top_3_correct": true,
+      "correct_rank": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "How quickly will express delivery reach a regional area?",
+      "expected_chunk_id": "shipping_delivery.md_3",
+      "retrieved_chunk_ids": [
+        "shipping_delivery.md_3",
+        "shipping_delivery.md_2",
+        "shipping_delivery.md_1"
+      ],
+      "top_1_correct": true,
+      "top_3_correct": true,
+      "correct_rank": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "When will my tracking link start working?",
+      "expected_chunk_id": "shipping_delivery.md_5",
+      "retrieved_chunk_ids": [
+        "shipping_delivery.md_5",
+        "shipping_delivery.md_6",
+        "account_privacy.md_2"
+      ],
+      "top_1_correct": true,
+      "top_3_correct": true,
+      "correct_rank": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "Tracking says delivered, but I cannot find my parcel.",
+      "expected_chunk_id": "shipping_delivery.md_6",
+      "retrieved_chunk_ids": [
+        "shipping_delivery.md_5",
+        "shipping_delivery.md_6",
+        "shipping_delivery.md_1"
+      ],
+      "top_1_correct": false,
+      "top_3_correct": true,
+      "correct_rank": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question": "How long is the standard product warranty?",
+      "expected_chunk_id": "product_warranty.md_1",
+      "retrieved_chunk_ids": [
+        "product_warranty.md_1",
+        "product_warranty.md_2",
+        "product_warranty.md_3"
+      ],
+      "top_1_correct": true,
+      "top_3_correct": true,
+      "correct_rank": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "Does the warranty cover accidental water damage?",
+      "expected_chunk_id": "product_warranty.md_3",
+      "retrieved_chunk_ids": [
+        "product_warranty.md_3",
+        "product_warranty.md_2",
+        "product_warranty.md_4"
+      ],
+      "top_1_correct": true,
+      "top_3_correct": true,
+      "correct_rank": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "What evidence do I need for a warranty claim?",
+      "expected_chunk_id": "product_warranty.md_4",
+      "retrieved_chunk_ids": [
+        "product_warranty.md_4",
+        "product_warranty.md_2",
+        "product_warranty.md_3"
+      ],
+      "top_1_correct": true,
+      "top_3_correct": true,
+      "correct_rank": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "Can I cancel an order that has already shipped?",
+      "expected_chunk_id": "orders_payments.md_3",
+      "retrieved_chunk_ids": [
+        "orders_payments.md_3",
+        "orders_payments.md_4",
+        "orders_payments.md_6"
+      ],
+      "top_1_correct": true,
+      "top_3_correct": true,
+      "correct_rank": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "What should I do if my card payment is declined?",
+      "expected_chunk_id": "orders_payments.md_5",
+      "retrieved_chunk_ids": [
+        "orders_payments.md_5",
+        "orders_payments.md_6",
+        "orders_payments.md_1"
+      ],
+      "top_1_correct": true,
+      "top_3_correct": true,
+      "correct_rank": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "Why do I see a pending charge on my card?",
+      "expected_chunk_id": "orders_payments.md_6",
+      "retrieved_chunk_ids": [
+        "orders_payments.md_6",
+        "orders_payments.md_1",
+        "orders_payments.md_5"
+      ],
+      "top_1_correct": true,
+      "top_3_correct": true,
+      "correct_rank": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "Can I place an order without creating an account?",
+      "expected_chunk_id": "account_privacy.md_1",
+      "retrieved_chunk_ids": [
+        "account_privacy.md_1",
+        "orders_payments.md_4",
+        "orders_payments.md_2"
+      ],
+      "top_1_correct": true,
+      "top_3_correct": true,
+      "correct_rank": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "How long is a password reset link valid?",
+      "expected_chunk_id": "account_privacy.md_2",
+      "retrieved_chunk_ids": [
+        "account_privacy.md_2",
+        "account_privacy.md_4",
+        "account_privacy.md_6"
+      ],
+      "top_1_correct": true,
+      "top_3_correct": true,
+      "correct_rank": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "My account is locked after several login attempts.",
+      "expected_chunk_id": "account_privacy.md_4",
+      "retrieved_chunk_ids": [
+        "account_privacy.md_4",
+        "account_privacy.md_2",
+        "account_privacy.md_6"
+      ],
+      "top_1_correct": true,
+      "top_3_correct": true,
+      "correct_rank": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question": "How long does account deletion take?",
+      "expected_chunk_id": "account_privacy.md_6",
+      "retrieved_chunk_ids": [
+        "account_privacy.md_6",
+        "account_privacy.md_4",
+        "account_privacy.md_2"
+      ],
+      "top_1_correct": true,
+      "top_3_correct": true,
+      "correct_rank": 1,
+      "reciprocal_rank": 1.0
+    }
+  ]
+}
